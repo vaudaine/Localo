@@ -1,0 +1,20 @@
+/* Barre latérale */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #290000;
+  }
+  
+  /* Liens de la barre latérale */
+  .header a {
+    color: #a5b4fc; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement */
+    font-size: 0.9em; /* Taille de la police */
+    margin: 0 15px;
+  }
+  
+  .header a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+  }
